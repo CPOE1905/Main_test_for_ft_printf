@@ -6,7 +6,7 @@
 /*   By: moudmine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/06 02:48:26 by moudmine          #+#    #+#             */
-/*   Updated: 2019/12/06 10:23:15 by moudmine         ###   ########.fr       */
+/*   Updated: 2019/12/06 10:33:06 by moudmine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ int main()
 		printf("\033[0;41m               KO :( \033[0m\n");
 
 
-	printf("\033[0;45m ############YOUR SCORE IS : %d/3  ####################\033[0m\n\n\n\n\n", count);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/3  ####################\033[0m\n\n\n\n\n", count);
 	
 	
 	printf("\033[1;46m");
@@ -125,7 +125,7 @@ int main()
 	printf("\033[0;32m           ||*******************************PC*************************************||   \033[0m\n");
 	ret = printf("test des strs vides %s et %s ", "", "");
 	printf("\n\033[0;36m Valeur Pc = %d ! \033[0m\n", ret);
-	printf("\033[0;34m           ||*******************************ME*************************************||   \033[0m\n");
+	printf("\033[0;32m           ||*******************************ME*************************************||   \033[0m\n");
 	ret2 = printf("test des strs vides %s et %s ", "", "");
 	printf("\n\033[0;36m Valeur Me = %d ! \033[0m\n", ret2);
 	if (ret == ret2)
@@ -139,7 +139,7 @@ int main()
 
 
 	
-	printf("\033[0;45m ############YOUR SCORE IS : %d/3  ####################\033[0m\n\n\n\n\n", count);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/3  ####################\033[0m\n\n\n\n\n", count);
 	
 	
 	printf("\033[1;46m");
@@ -232,7 +232,7 @@ int main()
 		printf("\033[0;41m               KO :( \033[0m\n");
 
 
-	printf("\033[0;45m ############YOUR SCORE IS : %d/5  ####################\033[0m\n\n\n\n\n", count);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/5  ####################\033[0m\n\n\n\n\n", count);
 
 	printf("\033[1;46m");
 	printf("\n\n||-----------------------------------UNSIGNED---------------------------------||\033[0m\n\n\n");
@@ -306,7 +306,7 @@ int main()
 
 
 
-	printf("\033[0;45m ############YOUR SCORE IS : %d/4  ####################\033[0m\n\n\n\n\n", count);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/4  ####################\033[0m\n\n\n\n\n", count);
 
 
 
@@ -364,7 +364,7 @@ int main()
 		printf("\033[0;41m               KO :( \033[0m\n");
 
 
-	printf("\033[0;45m ############YOUR SCORE IS : %d/3  ####################\033[0m\n", count);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/3  ####################\033[0m\n", count);
 
 
 
@@ -400,7 +400,7 @@ int main()
 
 		
 
-	printf("\033[0;45m ############YOUR SCORE IS : %d/72  ####################\033[0m\n\n\n\n", ret);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/72  ####################\033[0m\n\n\n\n", ret);
 
 
 	printf("\033[1;46m");
@@ -590,12 +590,12 @@ int main()
 	else
 		printf("\033[0;41m               KO :( \033[0m\n");
 
-	printf("\033[0;45m ############YOUR SCORE IS : %d/10  ####################\033[0m\n", count);
+	printf("\033[1;32m ############YOUR SCORE IS : %d/10  ####################\033[0m\n", count);
 
 	if (countf != 30)
-		printf("\n\n\033[0;41m                    ############YOUR FINALE SCORE IS : %d/30  (MUST RETRY ...)##################\033[0m\n", countf);
+		printf("\n\n\033[1;31m                    ############YOUR FINALE SCORE IS : %d/30  (MUST RETRY ...)##################\033[0m\n", countf);
 	else
-		printf("\n\n\033[0;44m                    ############YOUR FINALE SCORE IS : %d/30  (AMAZING :o) #########################\033[0m\n", countf);
+		printf("\n\n\033[1;42m                    ############YOUR FINALE SCORE IS : %d/30  (AMAZING :o) #########################\033[0m\n", countf);
 
 		printf("\033[1;47m");
 	printf("\n\n            ||-------------------------------------THE END-------------------------------------||\033[0m\n");
