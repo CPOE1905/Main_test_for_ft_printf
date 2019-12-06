@@ -6,7 +6,7 @@
 /*   By: moudmine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/06 02:48:26 by moudmine          #+#    #+#             */
-/*   Updated: 2019/12/06 10:33:06 by moudmine         ###   ########.fr       */
+/*   Updated: 2019/12/06 12:18:03 by moudmine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -593,9 +593,9 @@ int main()
 	printf("\033[1;32m ############YOUR SCORE IS : %d/10  ####################\033[0m\n", count);
 
 	if (countf != 30)
-		printf("\n\n\033[1;31m                    ############YOUR FINALE SCORE IS : %d/30  (MUST RETRY ...)##################\033[0m\n", countf);
+		printf("\n\n\033[1;31m                    ############YOUR FINAL SCORE IS : %d/30  (MUST RETRY ...)##################\033[0m\n", countf);
 	else
-		printf("\n\n\033[1;42m                    ############YOUR FINALE SCORE IS : %d/30  (AMAZING :o) #########################\033[0m\n", countf);
+		printf("\n\n\033[1;42m                    ############YOUR FINAL SCORE IS : %d/30  (AMAZING :o) #########################\033[0m\n", countf);
 
 		printf("\033[1;47m");
 	printf("\n\n            ||-------------------------------------THE END-------------------------------------||\033[0m\n");
